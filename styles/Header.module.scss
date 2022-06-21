@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    .info {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            span {
+                font-size: 25px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+        }
+        .decoration {
+            width: 1px;
+            height: 30px;
+            background: rgba(0, 0, 0, 0.3);
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+    }
+    .actions {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+}
